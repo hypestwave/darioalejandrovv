@@ -227,20 +227,17 @@ nav {
   letter-spacing: 0.2em;
   margin-bottom: 15px;
 }
-.Title-Center {
-  position: relative;
-  width: 0;
-  margin-left: auto;
-  margin-right: auto;
+.Title-big {
+    display: block;
+    margin-bottom: .25em;
+    text-align: center;
 }
-.Title-Center-left {
-  position: absolute;
-  right: 10px;
-  margin-right: -0.2em;
-}
-.Title-Center-right {
-  position: absolute;
-  left: 10px;
+
+.Title-small {
+    display: block;
+    text-align: center;
+    font-size: .6em;
+    color: #ffeddb;
 }
 section {
   padding-bottom: 70px;
@@ -464,9 +461,22 @@ h3 {
     padding-right: 20px;
     box-sizing: border-box;
   }
-  .Title {
-    font-size: 40px;
-  }
+.Title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:100%;
+    text-align:center;
+
+    font-family:"Avenir Next","Segoe UI",Ubuntu,sans-serif;
+    color:#54fad4;
+    font-size:45px;
+    font-weight:bold;
+    letter-spacing:.2em;
+    line-height:1.4;
+    text-transform:uppercase;
+}
   h2 {
     font-size: 35px;
     line-height: 1;
